@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Projects Start</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./image/Rectangle 13.png" type="image/x-icon">
+    <!-- link Tailwind css and daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="bg shadow-md">
+            <div class="navbar max-w-5xl mx-auto">
+                <div class="navbar-start">
+                    <img src="./image/nav.png" alt="">
+                    <h1 class="text-3xl pl-2 font-bold"><span class="text-pink-500">G</span>ame</h1>
+                </div>
+                <div class="navbar-end space-x-5">
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="gap-8 menu-horizontal px-1">
+                            <li class="font-bold"><a>About Us</a></li>
+                            <li class="font-bold"><a>Developers</a></li>
+                        </ul>
+                    </div>
+                    <a class="py-2 px-3 rounded-md bg-gray-200 lg:flex hidden text-xl">Follow Us On
+                        <i class="fa-brands text-xl pl-2 text-red-500 fa-youtube"></i>
+                        <i class="fa-brands text-xl pl-2 fa-tiktok"></i>
+                    </a>
+                    <!-- hidden dropdown -->
+                    <div class="dropdown dropdown-left">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-16 w-36  p-2 shadow">
+                            <li class="font-bold"><a>About Us</a></li>
+                            <li class="font-bold"><a>Developers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="p-2 lg:p-0">
+        <!-- Play Like The -->
+        <section class="max-w-5xl mx-auto">
+            <div class="lg:h-[487px] flex flex-col md:flex-row md:items-center">
+                <div class="lg:w-[50%] space-y-3">
+                    <h2 class="text-2xl font-bold uppercase">Play Like The</h2>
+                    <p id="text-color" class="text-5xl font-bold">G.O.A.T.</p>
+                    <div class="space-y-2">
+                        <div class="flex items-center gap-2">
+                            <i
+                                class="fa-solid border border-black text-red-600 py-1 px-1 rounded-full fa-circle-play"></i>
+                            <h2 class="text-xl">1-Click instant play</h2>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid text-xl text-red-500 fa-download"></i>
+                            <h2 class="text-xl">No Download</h2>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid text-xl fa-user-group"></i>
+                            <h2 class="text-xl">1000s of supported online games</h2>
+                        </div>
+                        <div class="pt-5">
+                            <button class="py-2 px-4 bg-pink-600 font-semibold text-white rounded-full">SIGN IN</button>
+                            <button class="py-2 px-4 bg-cyan-500 font-semibold text-white rounded-full">GO
+                                ROGUE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-[50%]">
+                    <img class="md:w-[400px] lg:w-full" src="./image/banner.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- We are gamer style start -->
+        <section class="houman">
+            <div
+                class="max-w-5xl mx-auto  md:h-[300px] h-[620px] pt-14 pb-14 flex flex-col md:flex-row md:items-center">
+                <div class="lg:w-[50%]">
+                    <img src="./image/main.png" alt="">
+                </div>
+                <div class="lg:w-[50%] md:text-end space-y-3 text-center">
+                    <h2 class="text-3xl  font-bold mb-5">We are gamer</h2>
+                    <p class="text-gray-500">An international digital games and entertainment company. We develop,
+                        publish and distribute
+                        multiplayer mobile games. We reach over 400 million players each month and our audience keeps
+                        growing.</p>
+                    <button class="py-2 px-4 bg-pink-600 font-semibold text-white rounded-full uppercase">know
+                        more</button>
+                    <h2 class="text-xl font-bold">Our purpose...</h2>
+                    <p class="md:text-2xl font-bold">“unleash the gamer in everyone”</p>
+                </div>
+            </div>
+        </section>
+        <!-- Online Games Funny Videos -->
+        <section class="max-w-5xl mx-auto my-10">
+            <div class="text-center">
+                <h2 class="md:text-3xl text-xl font-bold">Online Games <span>Funny
+                        Videos</span></h2>
+                <p class="text-xs mt-2">A Collection of Hilarious Videos to Brighten Your Day</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-2 my-10">
+                <!-- One card -->
+                <div class="md:w-[250px] duration-500 hover:scale-90">
+                    <img src="./image/main-1.png" alt="">
+                    <p class="mt-3 font-semibold">No Download. No Installs. Play games Instantly on Gamer.</p>
+                </div>
+                <!-- Two card -->
+                <div class="md:w-[250px] duration-500 hover:scale-90">
+                    <img src="./image/main-2.png" alt="">
+                    <p class="mt-3 font-semibold">Did you score? #unblockedgames #school</p>
+                </div>
+                <!-- Three card -->
+                <div id="linear" class="md:w-[250px] duration-500 hover:scale-90 relative">
+                    <div class="back-img"></div>
+                    <div class="text-center absolute top-24 left-20">
+                        <i class="fa-solid text-xl text-white fa-circle-play"></i>
+                        <h2 class="font-bold text-red-600">Watch Now</h2>
+                    </div>
+                    <p class="mt-3 font-semibold">Breaking game records <br> like OG</p>
+                </div>
+                <!-- Four card -->
+                <div class="md:w-[250px] duration-500 hover:scale-90">
+                    <img src="./image/main-3.png" alt="">
+                    <p class="mt-3 font-semibold">Busted gaming on school laptop, but you are still lit.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Play Instantly, No Downloads No Installs. -->
+        <section class="max-w-5xl mx-auto my-10">
+            <div class="flex flex-col md:flex-row md:items-center justify-between">
+                <div class="lg:ml-40 md:ml-14 lg:text-end">
+                    <h2 class="text-3xl font-bold"><span class="text-fuchsia-500">Play Instantly,</span> <br> No
+                        Downloads <br> No Installs.</h2>
+                    <p class="text-sm my-4">Play games online for free without <br> downloading. Just click the Play
+                        button <br> and play instantly in your browser.</p>
+                </div>
+                <div class="relative">
+                    <img class="lg:w-[400px] duration-1000 hover:scale-75 md:w-[350px]" src="./image/play-1.png" alt="">
+                    <img class="md:w-[150px] w-[150px] top-[45%] absolute md:top-[60%]  lg:top-[70%] md:-left-20"
+                        src="./image/play-2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Play Games Online Anywhere, Anytime! -->
+        <section class="max-w-5xl mx-auto md:my-32">
+            <div class="flex flex-col md:flex-row md:items-center md:gap-10">
+                <div class="relative">
+                    <img class="lg:w-[400px] duration-1000 hover:scale-75 md:w-[350px]" src="./image/play-3.png" alt="">
+                    <img class="md:w-[170px] w-[150px] top-28 right-0 absolute  lg:top-[60%] md:-right-20"
+                        src="./image/play-4.png" alt="">
+                </div>
+                <div class="lg:ml-40 md:ml-14 lg:mt-0 mt-10">
+                    <h2 class="text-4xl font-bold"><span id="play">Play Games <br> Online</span> Anywhere, Anytime!</h2>
+                    <p class="lg:text-sm text-xs my-4">PC. dad’s phone, mom’s tablet, or your Chromebook, <br> with
+                        Gamer you can
+                        play your favorite games online <br> for free, any time, anywhere , on any device.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Careers -->
+        <section class="backg-color lg:my-10">
+            <div class="max-w-5xl mx-auto flex flex-col md:items-center md:flex-row lg:p-0 p-2">
+                <div class="md:w-[50%] space-y-5">
+                    <h2 class="text-3xl font-bold lg:text-start text-center">Careers</h2>
+                    <p class="text-sm">Gamer is driven to create the best and most fun games for our millions of players
+                        all around the
+                        world, and we,re always on the lookout for more top talent to join our growing team. If you,d
+                        like to help us make great games and be a part of Gamers bright future, we,d love to hear from
+                        you.</p>
+                    <div class="flex justify-between">
+                        <div>
+                            <p>Multimedia Artist +</p>
+                            <p> Data Engineer +</p>
+                            <p> Adroid Engineer +</p>
+                            <p>Server Developer +</p>
+                            <p>Group Financial Accountant +</p>
+                            <p>Senior User Acuisition Specialist +</p>
+                        </div>
+                        <div class="text-end">
+                            <p>Lisbon, Portugal</p>
+                            <p>Lisbon, Portugal</p>
+                            <p>Zoetermeer, Netherlands</p>
+                            <p>Lisbon, Portugal</p>
+                            <p>London, United Kingdom</p>
+                            <p>Lisbon, Portugal</p>
+                        </div>
+                    </div>
+                    <button class="text-xl lg:w-[40%] w-full py-2 rounded-full text-fuchsia-500 bg-white">See all
+                        positions</button>
+                </div>
+                <div class="md:w-[50%] lg:mt-0 mt-3">
+                    <img src="./image/Group 65.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Ten icons -->
+        <section class="max-w-5xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-2 py-2">
+                <!-- One card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 11.png" alt="">
+                        Action Games</button>
+                </div>
+                <!-- Two card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 12.png" alt="">
+                        Adventure Games</button>
+                </div>
+                <!-- Three card -->
+                <div>
+                    <button
+                        class="flex items-center gap-2 text-fuchsia-500 border border-fuchsia-500 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 13.png" alt="">
+                        Arcade Games</button>
+                </div>
+                <!-- Four card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 14.png" alt="">
+                        Educational Games</button>
+                </div>
+                <!-- Five card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 15.png" alt="">
+                        Word Games</button>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex md:flex-row lg:gap-5 md:gap-1 lg:pl-24">
+                <!-- One card -->
+                <div>
+                    <button class="flex items-center lg:gap-2 bg-slate-100 py-1  lg:px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 16.png" alt="">
+                        Role Palying Games</button>
+                </div>
+                <!-- Two card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 17.png" alt="">
+                        Music & Audio Games</button>
+                </div>
+                <!-- Three card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 18.png" alt="">
+                        Puzzle Games</button>
+                </div>
+                <!-- Four card -->
+                <div>
+                    <button class="flex items-center gap-2 bg-slate-100 py-1 px-2 rounded-full">
+                        <img class="w-10" src="./image/Rectangle 19.png" alt="">
+                        Strategy Games</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="ft-c">
+        <div class="max-w-5xl mx-auto mt-10">
+            <div class="flex gap-2 justify-center">
+                <img class="w-14" src="./image/nav.png" alt="">
+                <h2 class="text-3xl font-bold"><span class="text-fuchsia-500">G</span>ame</h2>
+            </div>
+            <div class="pt-4 flex flex-col md:flex-row gap-4 justify-center">
+                <p class="text-xl">Our Story</p>
+                <p class="text-xl">Games</p>
+                <p class="text-xl">Web Games</p>
+                <p class="text-xl">Careers</p>
+                <p class="text-xl">Support</p>
+                <p class="text-xl">My Account</p>
+            </div>
+            <div>
+                <div class="flex justify-center items-center text-2xl gap-4">
+                    <i class="fa-brands fa-twitter"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+                        <path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path>
+                        <path fill="#fff"
+                            d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z">
+                        </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+                        <path fill="#FF3D00"
+                            d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z">
+                        </path>
+                        <path fill="#FFF" d="M20 31L20 17 32 24z"></path>
+                    </svg>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+
+            </div>
+            <div class="flex justify-center pt-4 gap-6">
+                <h2>Terms and Conditions</h2>
+                <h2>Privacy Policy</h2>
+                <h2>Cookie Policy</h2>
+                <h2>Privacy Settings</h2>
+            </div>
+            <p class="text-center pt-4">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+        </div>
+    </footer>
+</body>
+
+</html>

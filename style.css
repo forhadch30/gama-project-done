@@ -1,0 +1,36 @@
+.bg {
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.houman {
+    background-color: rgba(255, 250, 240, 0.637);
+}
+
+.back-img {
+    background-image: url('/image/main-4.png');
+    background-position: center;
+    background-size: cover;
+    height: 290px;
+    background-color: rgba(0, 0, 0, 0.473);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+}
+.ft-c{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+#text-color,
+span,
+#paly {
+    background-image: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    color: transparent;
+
+}
+.backg-color{
+    background-color: #F948B2;
+    color: white;
+}
