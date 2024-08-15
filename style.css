@@ -15,6 +15,9 @@
     background-blend-mode: overlay;
     border-radius: 10px;
 }
+.text-dah{
+    text-shadow: 0px 2px 4px rgba(46, 45, 45, 0.644);
+}
 .ft-c{
     background-color: black;
     color: white;

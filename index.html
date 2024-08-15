@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="bg shadow-md">
+        <nav class="bg shadow-md fixed w-full">
             <div class="navbar max-w-5xl mx-auto">
                 <div class="navbar-start">
                     <img src="./image/nav.png" alt="">
@@ -29,9 +29,9 @@
                             <li class="font-bold"><a>Developers</a></li>
                         </ul>
                     </div>
-                    <a class="py-2 px-3 rounded-md bg-gray-200 lg:flex hidden text-xl">Follow Us On
-                        <i class="fa-brands text-xl pl-2 text-red-500 fa-youtube"></i>
-                        <i class="fa-brands text-xl pl-2 fa-tiktok"></i>
+                    <a class="py-1 px-3 rounded-md bg-gray-200 lg:flex hidden text-xl">Follow Us On
+                        <i class="fa-brands text-xl pl-3 text-red-500 fa-youtube"></i>
+                        <i class="fa-brands text-xl pl-3 fa-tiktok"></i>
                     </a>
                     <!-- hidden dropdown -->
                     <div class="dropdown dropdown-left">
@@ -54,18 +54,18 @@
     </header>
     <main class="p-2 lg:p-0">
         <!-- Play Like The -->
-        <section class="max-w-5xl mx-auto">
+        <section class="max-w-5xl mx-auto pt-14">
             <div class="lg:h-[487px] flex flex-col md:flex-row md:items-center">
-                <div class="lg:w-[50%] space-y-3">
+                <div class="lg:w-[50%] space-y-3 relative">
                     <h2 class="text-2xl font-bold uppercase">Play Like The</h2>
-                    <p id="text-color" class="text-5xl font-bold">G.O.A.T.</p>
+                    <p id="text-color imgs-text" class="text-5xl font-bold text-dah">G.O.A.T.</p>
+                    <p id="text-color" class="text-5xl font-bold absolute top-8">G.O.A.T.</p>
                     <div class="space-y-2">
                         <div class="flex items-center gap-2">
-                            <i
-                                class="fa-solid border border-black text-red-600 py-1 px-1 rounded-full fa-circle-play"></i>
+                            <i class="fa-solid border border-black text-red-600 py-1 px-1 rounded-full fa-circle-play"></i>
                             <h2 class="text-xl">1-Click instant play</h2>
                         </div>
-                        <div class="flex items-center gap-2">
+                        <div class="flex items-center gap-4">
                             <i class="fa-solid text-xl text-red-500 fa-download"></i>
                             <h2 class="text-xl">No Download</h2>
                         </div>
@@ -271,12 +271,12 @@
         </section>
     </main>
     <footer class="ft-c">
-        <div class="max-w-5xl mx-auto mt-10">
-            <div class="flex gap-2 justify-center">
+        <div class="max-w-5xl mx-auto mt-10 lg:p-0 p-2">
+            <div class="flex gap-2 md:justify-center">
                 <img class="w-14" src="./image/nav.png" alt="">
                 <h2 class="text-3xl font-bold"><span class="text-fuchsia-500">G</span>ame</h2>
             </div>
-            <div class="pt-4 flex flex-col md:flex-row gap-4 justify-center">
+            <div class="pt-4 flex flex-col md:flex-row gap-4 md:justify-center">
                 <p class="text-xl">Our Story</p>
                 <p class="text-xl">Games</p>
                 <p class="text-xl">Web Games</p>
@@ -285,7 +285,7 @@
                 <p class="text-xl">My Account</p>
             </div>
             <div>
-                <div class="flex justify-center items-center text-2xl gap-4">
+                <div class="flex justify-center lg:items-center text-2xl gap-4 mt-4">
                     <i class="fa-brands fa-twitter"></i>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
                         <path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path>
@@ -303,7 +303,6 @@
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-apple"></i>
                 </div>
-
             </div>
             <div class="flex justify-center pt-4 gap-6">
                 <h2>Terms and Conditions</h2>
